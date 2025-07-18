@@ -1,4 +1,4 @@
-name: Build ImmortalWrt
+name: Build ImmortalWrt_Y
 
 on:
   push:
