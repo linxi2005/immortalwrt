@@ -24,9 +24,6 @@ jobs:
         ./scripts/feeds update -a
         ./scripts/feeds install -a
 
-    - name: Copy config file
-      run: cp .config .config
-
     - name: Compile firmware
       run: make -j$(nproc)
 
